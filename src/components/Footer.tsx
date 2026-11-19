@@ -83,9 +83,9 @@ export const Footer: React.FC = () => {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-ink-muted gap-4">
           <p>© {new Date().getFullYear()} EvenOut Inc. All rights reserved. Built with pride for friend circles everywhere.</p>
           <div className="flex items-center gap-1">
-            <span>Crafted with</span>
+            <span>Created with</span>
             <Heart className="w-3.5 h-3.5 text-tangerine fill-tangerine" />
-            <span>for zero awkwardness.</span>
+            <span>in india for india</span>
           </div>
         </div>
 
