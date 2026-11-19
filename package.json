@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "pages:dev": "npm run build && wrangler pages dev",
     "pages:deploy": "npm run build && wrangler pages deploy",
-    "deploy": "npm run build && wrangler pages deploy"
+    "deploy": "npm run build && wrangler pages deploy",
+    "deploy:stage": "npm run build && wrangler pages deploy dist --branch=stage",
+    "deploy:prod": "npm run build && wrangler pages deploy dist --branch=main"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
