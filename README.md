@@ -77,3 +77,15 @@ npm run dev
 npm run build
 npm run preview
 ```
+
+### Deploy to Cloudflare Pages (Wrangler)
+```bash
+# Preview build in local Pages environment
+npm run pages:dev
+
+# Build and deploy to Cloudflare Pages
+npm run pages:deploy
+# or
+npm run deploy
+```
+Live URL: [https://evenout-landing.pages.dev](https://evenout-landing.pages.dev)
